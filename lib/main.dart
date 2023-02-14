@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
-import 'package:web_example/domain/article.dart';
-import 'package:web_example/services/article_api_service.dart';
-import 'package:web_example/ui/widgets/article_list_item.dart';
-import 'package:web_example/ui/widgets/full_screen_article.dart';
+import 'package:flutter_web_example/domain/article.dart';
+import 'package:flutter_web_example/services/article_api_service.dart';
+import 'package:flutter_web_example/ui/widgets/article_list_item.dart';
+import 'package:flutter_web_example/ui/widgets/full_screen_article.dart';
 
 void main() {
   runApp(const MyApp());

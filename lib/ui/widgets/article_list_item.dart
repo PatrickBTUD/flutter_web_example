@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:web_example/domain/article.dart';
+import 'package:flutter_web_example/domain/article.dart';
 
 class ArticleListItem extends StatelessWidget {
   final Article article;

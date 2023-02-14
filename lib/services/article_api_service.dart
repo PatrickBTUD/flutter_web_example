@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:web_example/domain/article.dart';
-import 'package:web_example/infrastructure/network_client.dart';
+import 'package:flutter_web_example/domain/article.dart';
+import 'package:flutter_web_example/infrastructure/network_client.dart';
 
 class ArticleApiService {
 

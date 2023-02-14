@@ -1,9 +1,3 @@
-#Keys
-cicd/steripharm_dev.jks
-cicd/steripharm_prod.jks
-android/dev_key.properties
-android/prod_key.properties
-
 # Miscellaneous
 *.class
 *.log
