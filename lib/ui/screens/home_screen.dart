@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
             body: Center(
               child: Padding(
                 padding: EdgeInsets.all(8.0),
-                child: Text('Es ist ein Fehler aufgetreten, bitte Laden Sie die Seite erneut'),
+                child: Text('Es ist ein Fehler aufgetreten, bitte laden Sie die Seite erneut'),
               ),
             ),
           );
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                    'Es konnten keine Artikel geladen werden, bitte Laden Sie die Seite erneut'),
+                    'Es konnten keine Artikel geladen werden, bitte laden Sie die Seite erneut'),
               ),
             ),
           );

@@ -9,7 +9,16 @@ class ArticleListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: article.urlToImage != null ? Image.network(article.urlToImage!) : null,
+      leading: article.urlToImage != null
+          ? SizedBox(
+              width: 80,
+              height: 80,
+              child: Image.network(
+                article.urlToImage!,
+                fit: BoxFit.contain,
+              ),
+            )
+          : null,
       title: Text(article.title ?? 'Default Title'),
       subtitle: article.publishedAt != null ? Text(article.publishedAt!) : null,
     );
